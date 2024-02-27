@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (Gremlin Spoofer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  kdmapper.cpp
+  main.cpp
+  usermode.cpp
+C:\Users\soare\Desktop\iwanttokillmyself\usermode.cpp(130,18): warning C4552: '+': result of expression not used
+main.obj : error LNK2005: "unsigned char * kdmapper_driver_start_util" (?kdmapper_driver_start_util@@3PAEA) already defined in kdmapper.obj
+portable_executable.obj : error LNK2005: "unsigned char * kdmapper_driver_start_util" (?kdmapper_driver_start_util@@3PAEA) already defined in kdmapper.obj
+usermode.obj : error LNK2005: "unsigned char * kdmapper_driver_start_util" (?kdmapper_driver_start_util@@3PAEA) already defined in kdmapper.obj
+LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+C:\Users\soare\Desktop\iwanttokillmyself\Gremlin Spoofer\x64\Release\swoofer.exe : fatal error LNK1169: one or more multiply defined symbols found

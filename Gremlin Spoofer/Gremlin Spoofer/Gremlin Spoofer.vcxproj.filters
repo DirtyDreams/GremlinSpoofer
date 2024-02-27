@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\KdMapper">
+      <UniqueIdentifier>{b11d161d-e1d4-43f0-8b0b-20ca2792858b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\usermode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KdMapper\intel_driver.cpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KdMapper\kdmapper.cpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KdMapper\main.cpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KdMapper\portable_executable.cpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KdMapper\service.cpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\KdMapper\utils.cpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\KdMapper\intel_driver.hpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KdMapper\intel_driver_resource.hpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KdMapper\kdmapper.hpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KdMapper\nt.hpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KdMapper\portable_executable.hpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KdMapper\service.hpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\KdMapper\utils.hpp">
+      <Filter>Header Files\KdMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\lazy_importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\crypter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smae.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auth.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="devman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\libcurl.lib" />
+    <Library Include="..\..\library_x64.lib" />
+  </ItemGroup>
+</Project>
